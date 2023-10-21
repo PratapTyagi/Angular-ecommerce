@@ -1,0 +1,19 @@
+<nav class="nav">
+  <h1><a routerLink="">E-Comm</a></h1>
+  <div class="nav-search">
+    <input type="text" placeholder="Search Products" />
+    <button>Search</button>
+    <!-- <ul class="suggested-search" *ngIf="searchResult">
+        <li *ngFor="let item of searchResult">
+          <a (mousedown)="redirectToDetails(item.id)" >{{item.name}}</a>
+        </li>
+      </ul> -->
+  </div>
+  <div>
+    <ul>
+      <li><a routerLink="">Home</a></li>
+      <li><a routerLink="user-auth">Login/Sign-up</a></li>
+      <li><a href="cart">Cart</a></li>
+    </ul>
+  </div>
+</nav>
